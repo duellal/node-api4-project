@@ -1,0 +1,30 @@
+{
+  "name": "api4-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duellal/node-api4-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duellal/node-api4-project/issues"
+  },
+  "homepage": "https://github.com/duellal/node-api4-project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.20"
+  }
+}
